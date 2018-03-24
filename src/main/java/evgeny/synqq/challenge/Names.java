@@ -1,11 +1,7 @@
 package evgeny.synqq.challenge;
 
-import evgeny.synqq.challenge.people.Person;
 import evgeny.synqq.challenge.sentence.Sentence;
 
-import java.util.List;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Names {
 

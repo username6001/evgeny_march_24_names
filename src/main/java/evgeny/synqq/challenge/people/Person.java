@@ -7,9 +7,9 @@ public class Person {
 
     public Person(String name) {
         String[] split = name.split(" ");
-        firstName = new Name(split[0]);
+        firstName = new Name(split[0], this);
         if (split.length > 1) {
-            secondName = new Name(split[1]);
+            secondName = new Name(split[1], this);
         }
     }
 
