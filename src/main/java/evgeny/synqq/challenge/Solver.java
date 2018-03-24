@@ -12,7 +12,9 @@ import java.util.stream.Collectors;
 public class Solver {
 
     public void solve(Sentence sentence, Context context) {
+
         double threshold = 0.9;
+
         List<Person> people = context.getPeople();
         List<NameToSuggestionsPerson> fullnamesToSuggestions = sentence.getUnresolvedNames().stream()
                 .filter(n -> n.getRight() != null)
